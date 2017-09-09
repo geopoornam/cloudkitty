@@ -65,6 +65,8 @@ function create_cloudkitty_accounts {
     get_or_add_user_project_role admin cloudkitty service
 
     # Make CloudKitty monitor demo project for rating purposes
+    get_or_add_user_project_role rating cloudkitty admin
+    get_or_add_user_project_role rating cloudkitty service
     get_or_add_user_project_role rating cloudkitty demo
 }
 
